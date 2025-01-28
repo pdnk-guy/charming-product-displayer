@@ -31,7 +31,7 @@ export const Skills = () => {
 
           {/* Хобби */}
           <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-            <h3 className="text-xl font-semibold mb-4">Хобби</h3>
+            <h3 className="text-xl font-semibold mb-4 text-[#F97316]">Хобби</h3>
             <ul className="space-y-2 text-gray-600">
               <li>- Кино;</li>
               <li>- Музыкальные и кино-квизы;</li>
