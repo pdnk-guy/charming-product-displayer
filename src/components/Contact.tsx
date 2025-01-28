@@ -8,17 +8,25 @@ export const Contact = () => {
         <p className="text-xl text-gray-600 mb-12">
           Открыт к обсуждению новых возможностей и проектов
         </p>
-        <div className="flex flex-col gap-4 items-center">
+        <div className="flex flex-col gap-6 items-center">
           <a 
-            href="mailto:contact@example.com" 
-            className="text-xl hover:text-gray-600 transition-colors"
+            href="mailto:guydarzhi@yahoo.com" 
+            className="text-xl hover:text-blue-600 transition-colors"
           >
-            contact@example.com
+            guydarzhi@yahoo.com
           </a>
-          <div className="flex gap-6">
-            <a href="#" className="text-gray-600 hover:text-black transition-colors">LinkedIn</a>
-            <a href="#" className="text-gray-600 hover:text-black transition-colors">Telegram</a>
-          </div>
+          <a 
+            href="https://t.me/guydarzhi" 
+            className="text-xl hover:text-blue-600 transition-colors"
+          >
+            @guydarzhi — это телеграм
+          </a>
+          <a 
+            href="tel:+79104895129" 
+            className="text-xl hover:text-blue-600 transition-colors"
+          >
+            +7 910 489 5129
+          </a>
         </div>
       </div>
     </section>
