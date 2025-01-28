@@ -32,7 +32,7 @@ export const CV = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="hard-skills">
-              <AccordionTrigger className="text-lg font-semibold">
+              <AccordionTrigger className="text-lg font-semibold text-orange-500">
                 Hard skills
               </AccordionTrigger>
               <AccordionContent>
@@ -68,7 +68,7 @@ export const CV = () => {
 
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="soft-skills">
-              <AccordionTrigger className="text-lg font-semibold">
+              <AccordionTrigger className="text-lg font-semibold text-orange-500">
                 Soft skills
               </AccordionTrigger>
               <AccordionContent>
