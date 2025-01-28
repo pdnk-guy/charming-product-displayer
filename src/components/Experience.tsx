@@ -194,6 +194,75 @@ export const Experience = () => {
                 </div>
               </AccordionContent>
             </AccordionItem>
+
+            <AccordionItem value="borishof">
+              <AccordionTrigger className="text-left">
+                <div>
+                  <h3 className="text-xl font-semibold">БорисХоф Холдинг</h3>
+                  <p className="text-gray-600 text-sm">Product Owner (лидер цифровой трансформации), 2023</p>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="text-left space-y-6">
+                <p className="text-gray-800">
+                  <strong>БорисХоф</strong> — сеть современных дилерских центров, которые работают по международным стандартам.
+                </p>
+                <p className="text-gray-800">
+                  Официальный дилер брендов BMW, Rolls-Royce, MINI, Hyundai, Genesis, Jaguar, Land Rover, Chery, EXEED, Mitsubishi, Volvo, Infiniti, Geely, EVOLUTE, VOYAH, Tank и Toyota в России. Автосалоны располагаются в Москве и предлагают автомобили из актуального модельного ряда.
+                </p>
+                <p className="text-gray-800">
+                  В рамках стратегии компании по <strong>цифровой трансформации</strong> было принято решение упростить процедуру взаимодействия между клиентами, и я данную стратегию реализовывал (отвечал за создание <strong>личного кабинета клиента и мобильного приложения</strong>, <strong>телеграм-бота</strong> и <strong>систему <a href="https://borishof.ru/service/evhc/" className="text-blue-600 hover:underline">видео-отчетов</a></strong>).
+                </p>
+
+                <div>
+                  <h4 className="font-bold text-orange-500 mb-2">Телеграм Бот Мой Борисхоф</h4>
+                  <p className="text-gray-800 mb-4">
+                    Разработали инструмент для коммуникации клиента с компанией. Особое внимание уделено именно дистанционному взаимодействию
+                  </p>
+                  <div className="space-y-2">
+                    <a href="https://t.me/myborishof_bot" className="text-blue-600 hover:underline block">Бот Мой Борисхоф</a>
+                    <a href="https://drive.google.com/file/d/1ryAhjqJEFAB8RqXs_ebJIP4C1x_xqruF/view?usp=sharing" className="text-blue-600 hover:underline block">Покупка авто через ТГ бот</a>
+                    <a href="https://drive.google.com/file/d/1XznfU_VXIlKYxEqxtZuGC7fiPdyb62Zo/view?usp=sharing" className="text-blue-600 hover:underline block">Запись на сервис через ТГ бот</a>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-orange-500 mb-2">Система Video Capture</h4>
+                  <p className="text-gray-800 mb-4">
+                    Принципиально новый подход к сервисному обслуживанию автомобиля. Оперативное согласование всех дополнительных работ в режиме онлайн и видеоконтроль дают полную уверенность в качественной работе технического центра.
+                  </p>
+                  <p className="text-gray-800 mb-4">
+                    Технология Video Capture позволяет увидеть своими глазами любые отклонения, выявленные в процессе ремонта, и тем самым дает Вам исчерпывающую информацию для принятия взвешенных решений. После проведения первичного визуального осмотра автомобиль поступает в цех, где механик выполнит необходимые операции по Вашему обращению. Если на этапе выполнения работ будут выявлены какие-либо дополнительные отклонения, мастер-консультант отправит Вам видеофайл, наглядно демонстрирующий выявленные несоответствия, а также детальную информацию о стоимости их устранения, чтобы Вы могли согласовать операции прямо со своего смартфона.
+                  </p>
+                  <a href="https://borishof.ru/upload/files/service/evhc/video.mp4" className="text-blue-600 hover:underline block">Посмотрите как это будет выглядеть</a>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-orange-500 mb-2">Личный кабинет клиента (Продукт в процессе разработки)</h4>
+                  <a href="https://drive.google.com/file/d/1B5kM0_X8zbqtim1SOUqvWwj39lKDMT4Y/view?usp=sharing" className="text-blue-600 hover:underline block">Концепт личного кабинета</a>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-orange-500 mb-2">Достижения</h4>
+                  <p className="text-gray-800 mb-4">
+                    Продукты позволили компании стать победителями <strong>ежегодной национальной премии «АВТОДИЛЕР ГОДА – 2024»</strong>:
+                  </p>
+                  <ul className="list-decimal pl-6 space-y-2 text-gray-800">
+                    <li>
+                      <a href="https://www.autostat.ru/press-releases/58620/" className="text-blue-600 hover:underline">Номинация «Организация продаж новых автомобилей»</a> 
+                      (<strong>Премиальный сегмент</strong>: - Москва и Санкт-Петербург: <strong>EXEED Центр БорисХоф Магистральная</strong>, Москва)
+                    </li>
+                    <li>
+                      <a href="https://www.autostat.ru/press-releases/58620/" className="text-blue-600 hover:underline">Номинация «Организация сервиса»</a> 
+                      (15 – 30 дилерских контрактов – <strong>Группа компаний БорисХоф</strong>)
+                    </li>
+                    <li>
+                      <a href="https://www.autostat.ru/press-releases/58620/" className="text-blue-600 hover:underline">Номинация «Эффективные закупки»</a> 
+                      (объем склада от 100 до 250 автомобилей: <strong>БорисХоф PROбег Вегас</strong>)
+                    </li>
+                  </ul>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
         </div>
       </div>
