@@ -1,5 +1,6 @@
 import React from 'react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 export const Projects = () => {
   const projects = [
@@ -11,7 +12,12 @@ export const Projects = () => {
     {
       title: "StartGame",
       description: "co-founder/CPO/Head of Product - стартап",
-      content: "Play-to-Earn (P2E) стартап. Создал площадку для проведения киберспортивных мероприятий на базе блокчейн технологий для Азиатского рынка и рынка Латинской Америки. Основные функции - управление продуктом полного цикла. Управление командой и подключение к проекту новых людей. Анализ конкурентов, рынок. Формирование бизнес-модели. Проводение CustDev, сбор фидбек от пользователей, клиентов. Принятие решения о развитии продукта. Координация команды разработки. Инициация и участие в выстраивании внутренних бизнес-процессов."
+      content: "Play-to-Earn (P2E) стартап. Создал площадку для проведения киберспортивных мероприятий на базе блокчейн технологий для Азиатского рынка и рынка Латинской Америки. Основные функции - управление продуктом полного цикла. Управление командой и подключение к проекту новых людей. Анализ конкурентов, рынок. Формирование бизнес-модели. Проводение CustDev, сбор фидбек от пользователей, клиентов. Принятие решения о развитии продукта. Координация команды разработки. Инициация и участие в выстраивании внутренних бизнес-процессов.",
+      images: [
+        "/lovable-uploads/2b1f96c0-12b9-410a-981a-a91fed4bfbde.png",
+        "/lovable-uploads/c2f0d37d-e200-4044-b515-9dca54e6f8a3.png",
+        "/lovable-uploads/60b2bf9e-715b-421e-9b37-fd6f0a120585.png"
+      ]
     },
     {
       title: "NewtonLab",
@@ -59,6 +65,28 @@ export const Projects = () => {
                     <AccordionContent>
                       <div className="text-gray-700 mt-2">
                         <p className="mb-4">{project.content}</p>
+                        {project.images && (
+                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
+                            {project.images.map((image, idx) => (
+                              <Dialog key={idx}>
+                                <DialogTrigger>
+                                  <img
+                                    src={image}
+                                    alt={`${project.title} screenshot ${idx + 1}`}
+                                    className="w-full h-auto rounded-lg shadow-md cursor-pointer hover:opacity-90 transition-opacity"
+                                  />
+                                </DialogTrigger>
+                                <DialogContent className="max-w-[90vw] max-h-[90vh] p-0">
+                                  <img
+                                    src={image}
+                                    alt={`${project.title} screenshot ${idx + 1}`}
+                                    className="w-full h-full object-contain"
+                                  />
+                                </DialogContent>
+                              </Dialog>
+                            ))}
+                          </div>
+                        )}
                         {project.projects && (
                           <>
                             <h4 className="font-semibold mb-2">Трек-рекорд реализованных проектов:</h4>
