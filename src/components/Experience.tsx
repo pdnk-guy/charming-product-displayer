@@ -247,6 +247,23 @@ export const Experience = () => {
                 </div>
               </AccordionTrigger>
               <AccordionContent className="text-left space-y-6">
+                <Dialog>
+                  <DialogTrigger>
+                    <img 
+                      src="/lovable-uploads/f7d331eb-b72e-4c44-ba02-d3f81e6cc263.png" 
+                      alt="Market Lab главная страница" 
+                      className="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer mb-6"
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="max-w-4xl">
+                    <img 
+                      src="/lovable-uploads/f7d331eb-b72e-4c44-ba02-d3f81e6cc263.png" 
+                      alt="Market Lab главная страница" 
+                      className="w-full h-auto"
+                    />
+                  </DialogContent>
+                </Dialog>
+
                 <p className="text-gray-800">
                   <strong>Market lab</strong> — это Full Digital маркетинговая компания (полный цикл услуг маркетингового сопровождения).
                 </p>
