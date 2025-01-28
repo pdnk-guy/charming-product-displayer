@@ -45,19 +45,8 @@ export const Projects = () => {
               <div className="flex flex-col">
                 <div className="flex items-start justify-between mb-4">
                   <div>
-                    <h3 className="text-xl font-semibold">
-                      {project.link ? (
-                        <a 
-                          href={project.link} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-blue-600 hover:text-blue-800"
-                        >
-                          {project.title}
-                        </a>
-                      ) : (
-                        project.title
-                      )}
+                    <h3 className="text-xl font-semibold text-blue-600">
+                      {project.title}
                     </h3>
                     <p className="text-gray-600 mt-1">{project.description}</p>
                   </div>

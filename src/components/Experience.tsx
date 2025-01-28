@@ -16,7 +16,7 @@ export const Experience = () => {
             <AccordionItem value="uremont">
               <AccordionTrigger className="text-left">
                 <div>
-                  <h3 className="text-xl font-semibold">Uremont.com</h3>
+                  <h3 className="text-xl font-semibold text-orange-500">Uremont.com</h3>
                   <p className="text-gray-600 text-sm">Руководитель проекта, исполнительный директор 2018-2021 год</p>
                 </div>
               </AccordionTrigger>
@@ -72,7 +72,7 @@ export const Experience = () => {
             <AccordionItem value="rosbank">
               <AccordionTrigger className="text-left">
                 <div>
-                  <h3 className="text-xl font-semibold">РОСГОССТРАХ Банк</h3>
+                  <h3 className="text-xl font-semibold text-orange-500">РОСГОССТРАХ Банк</h3>
                   <p className="text-gray-600 text-sm">Директор по созданию и развитию цифровые проектов, 2021 год</p>
                 </div>
               </AccordionTrigger>
@@ -100,7 +100,7 @@ export const Experience = () => {
             <AccordionItem value="automarket">
               <AccordionTrigger className="text-left">
                 <div>
-                  <h3 className="text-xl font-semibold">ООО "Автомаркет"</h3>
+                  <h3 className="text-xl font-semibold text-orange-500">ООО "Автомаркет"</h3>
                   <p className="text-gray-600 text-sm">CPO, 2021-2023</p>
                 </div>
               </AccordionTrigger>
@@ -130,7 +130,7 @@ export const Experience = () => {
             <AccordionItem value="marketlab">
               <AccordionTrigger className="text-left">
                 <div>
-                  <h3 className="text-xl font-semibold">ООО Лаборатория Маркетинга</h3>
+                  <h3 className="text-xl font-semibold text-orange-500">ООО Лаборатория Маркетинга</h3>
                   <p className="text-gray-600 text-sm">CPO, 2023</p>
                 </div>
               </AccordionTrigger>
@@ -198,7 +198,7 @@ export const Experience = () => {
             <AccordionItem value="borishof">
               <AccordionTrigger className="text-left">
                 <div>
-                  <h3 className="text-xl font-semibold">БорисХоф Холдинг</h3>
+                  <h3 className="text-xl font-semibold text-orange-500">БорисХоф Холдинг</h3>
                   <p className="text-gray-600 text-sm">Product Owner (лидер цифровой трансформации), 2023</p>
                 </div>
               </AccordionTrigger>
