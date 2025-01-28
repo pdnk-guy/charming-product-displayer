@@ -20,7 +20,7 @@ const Index = () => {
         <Contact />
       </main>
       <footer className="py-6 text-center text-gray-600 border-t border-gray-200">
-        <p>© 2024 Guy Darzhi. Все права защищены.</p>
+        <p>© 2024 Guydarzhi. Все права защищены.</p>
       </footer>
     </div>
   );
