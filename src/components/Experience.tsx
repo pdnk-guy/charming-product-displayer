@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import {
+  Dialog,
+  DialogContent,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 export const Experience = () => {
   return (
@@ -99,6 +104,42 @@ export const Experience = () => {
                 </div>
               </AccordionTrigger>
               <AccordionContent className="text-left space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                  <Dialog>
+                    <DialogTrigger>
+                      <img 
+                        src="/lovable-uploads/30ce2a92-c79b-4f64-8e33-1506c4ea005d.png" 
+                        alt="БанкАвто карточка автомобиля" 
+                        className="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                      />
+                    </DialogTrigger>
+                    <DialogContent className="max-w-4xl">
+                      <img 
+                        src="/lovable-uploads/30ce2a92-c79b-4f64-8e33-1506c4ea005d.png" 
+                        alt="БанкАвто карточка автомобиля" 
+                        className="w-full h-auto"
+                      />
+                    </DialogContent>
+                  </Dialog>
+                  
+                  <Dialog>
+                    <DialogTrigger>
+                      <img 
+                        src="/lovable-uploads/1ed93262-8540-45bf-8377-bee676b614ff.png" 
+                        alt="БанкАвто главная страница" 
+                        className="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                      />
+                    </DialogTrigger>
+                    <DialogContent className="max-w-4xl">
+                      <img 
+                        src="/lovable-uploads/1ed93262-8540-45bf-8377-bee676b614ff.png" 
+                        alt="БанкАвто главная страница" 
+                        className="w-full h-auto"
+                      />
+                    </DialogContent>
+                  </Dialog>
+                </div>
+
                 <p className="text-gray-800">
                   Создавал классический автомобильный классифайд #БанкАвто.
                 </p>
