@@ -6,7 +6,6 @@ export const Projects = () => {
     {
       title: "RadioGaga travel",
       description: "co-founder - стартап",
-      link: "https://radio-gaga-travel-a0b7.glide.page/dl/6471c6",
       content: "Самостоятельно создал в Glide мобильное приложение и web-версию сайта для travel-агентства со встроенной CRM-системой для учета пользователей и отправки Push уведомлений. От прототипа и дизайна до финальной верстки"
     },
     {
