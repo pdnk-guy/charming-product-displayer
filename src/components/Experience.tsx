@@ -1,48 +1,74 @@
 import React from 'react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export const Experience = () => {
-  const experiences = [
-    {
-      period: "2022 — настоящее время",
-      role: "Product Owner",
-      company: "Компания А",
-      description: "Руководство разработкой продукта, определение стратегии развития, работа с командой разработки"
-    },
-    {
-      period: "2020 — 2022",
-      role: "Product Manager",
-      company: "Компания Б",
-      description: "Управление продуктовой разработкой, проведение исследований, формирование продуктовых метрик"
-    },
-    {
-      period: "2018 — 2020",
-      role: "Business Analyst",
-      company: "Компания В",
-      description: "Анализ бизнес-процессов, подготовка технических заданий, работа с заинтересованными сторонами"
-    }
-  ];
-
   return (
     <section id="experience" className="py-20 px-4 md:px-6 bg-gray-50">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center font-inter">Опыт работы</h2>
-        <div className="max-w-3xl mx-auto space-y-12">
-          {experiences.map((exp, index) => (
-            <div 
-              key={index} 
-              className="flex flex-col md:flex-row gap-6 animate-fade-up"
-              style={{ animationDelay: `${index * 200}ms` }}
-            >
-              <div className="md:w-1/3">
-                <p className="text-gray-600">{exp.period}</p>
-              </div>
-              <div className="md:w-2/3">
-                <h3 className="text-xl font-semibold mb-2">{exp.role}</h3>
-                <p className="text-gray-600 mb-2">{exp.company}</p>
-                <p className="text-gray-800">{exp.description}</p>
-              </div>
-            </div>
-          ))}
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center font-inter">Релевантный опыт (подробнее от раннего к последнему)</h2>
+        <div className="max-w-3xl mx-auto">
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value="uremont">
+              <AccordionTrigger className="text-left">
+                <div>
+                  <h3 className="text-xl font-semibold">Uremont.com</h3>
+                  <p className="text-gray-600 text-sm">Руководитель проекта, исполнительный директор 2018-2021 год</p>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="text-left space-y-6">
+                <p className="text-gray-800">
+                  <strong>UREMONT</strong> — крупнейшая в Восточной Европе платформа по выбору и бронированию автосервисов. Проект объединил на своей площадке более 16 000 СТО и автодилеров, свыше миллиона автовладельцев, более 20 страховых компаний, 5 банков и поставщиков автозапчастей.
+                </p>
+                <p className="text-gray-800">
+                  Чтобы упростить процедуру взаимодействия между игроками авторынка, мы разработали программное обеспечение, которое переводит все процессы в онлайн формат.
+                </p>
+                
+                <div>
+                  <h4 className="font-bold text-orange-500 mb-2">Функции:</h4>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-800">
+                    <li>Разработка системы управления компанией (бизнес-процессы, регламенты, описание функционала сотрудников, KPI)</li>
+                    <li>Создание бизнес-процессов в новых отделах компании</li>
+                    <li>Управление операционными процессами с целью обеспечения их результативности</li>
+                    <li>Обеспечение эффективного взаимодействия между удаленными офисами компании</li>
+                    <li>Участие в выставках и конференциях</li>
+                    <li>Переговоры с ЛПР ключевых партнеров</li>
+                    <li>Контроль качества и сроков исполнения по проекту, мониторинг финансовой дисциплины проекта</li>
+                    <li>Координация проектной деятельности</li>
+                    <li>Контроль выполнения бизнесом целевых показателей эффективности</li>
+                    <li>Анализ рынка и конкурентов</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-orange-500 mb-2">Достижения:</h4>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-800">
+                    <li>В короткий срок сформировал и запустил отдел по работе с гос. контрактами (44-ФЗ и 223-ФЗ). За первый квартал компания выиграли 7 долгосрочных контрактов</li>
+                    <li>Успешно прошел отбор на резидентуру в крупнейший инновационный центр на территории Российской Федерации – СКОЛКОВО</li>
+                    <li>Вышли на рынок B2B по обслуживанию автопарков. Провел переговоры и успешно подключил крупные логистические компании на обслуживание ("4 сезона", "Деловые Линии")</li>
+                    <li>Успешно проведена интеграция с мобильным приложением АЗС ГАЗПРОМНЕФТЬ</li>
+                    <li>Вышли на рынок Белоруссии и Казахстана</li>
+                    <li>Запустил магазин автозапчастей (online) на базе портала — (пилотный запуск на территории Москвы и МО+Санкт-Петербург)</li>
+                    <li>Запустил в работу услугу по продаже страховых продуктов (ЕОСАГО, КАСКО)</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-orange-500 mb-2">По итогу 2020 года:</h4>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-800">
+                    <li>Портал посетили около 3 млн автовладельцев</li>
+                    <li><strong>Премия рунета</strong>, Национальная премия за вклад в развитие российского сегмента сети Интернет. Победитель в номинации «Экономика и бизнес»</li>
+                    <li><strong>Цифровой прорыв года</strong> Это масштабное соревнование для профессионалов IT-отрасли, один из лучших отраслевых конкурсов страны. Победитель в номинации <strong>Информационный прорыв</strong></li>
+                    <li>Лауреаты премии <strong>IT-РЕВОЛЮЦИЯ в автобизнесе</strong></li>
+                  </ul>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </div>
     </section>
