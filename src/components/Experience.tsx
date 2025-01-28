@@ -389,7 +389,6 @@ export const Experience = () => {
                     </video>
                   </div>
                 </div>
-
               </AccordionContent>
             </AccordionItem>
           </Accordion>
