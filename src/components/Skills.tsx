@@ -11,7 +11,7 @@ export const Skills = () => {
           <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
             <h3 className="text-xl font-semibold mb-4 text-[#F97316]">Технологии</h3>
             <ul className="space-y-2 text-gray-600">
-              <li>- jira/trello/slack/google docs/figma/notion(rip)/miro(RIP)/discord/glide</li>
+              <li>- jira, trello, slack, google docs, figma, notion(rip), miro(RIP), discord, glide</li>
               <li>- ЯМетрика/Google Analytics</li>
               <li>- УВЕРЕННЫЙ ПОЛЬЗОВАТЕЛЬ ПК И КОФЕМАШИНЫ</li>
             </ul>
