@@ -349,8 +349,15 @@ export const Experience = () => {
                   </p>
                   <div className="space-y-2">
                     <a href="https://t.me/myborishof_bot" className="text-blue-600 hover:underline block">Бот Мой Борисхоф</a>
-                    <a href="https://drive.google.com/file/d/1ryAhjqJEFAB8RqXs_ebJIP4C1x_xqruF/view?usp=sharing" className="text-blue-600 hover:underline block">Покупка авто через ТГ бот</a>
-                    <a href="https://drive.google.com/file/d/1XznfU_VXIlKYxEqxtZuGC7fiPdyb62Zo/view?usp=sharing" className="text-blue-600 hover:underline block">Запись на сервис через ТГ бот</a>
+                    <div className="aspect-w-16 aspect-h-9">
+                      <video 
+                        controls
+                        className="w-full rounded-lg shadow-lg"
+                        src="https://borishof.ru/upload/files/service/evhc/video.mp4"
+                      >
+                        Ваш браузер не поддерживает видео
+                      </video>
+                    </div>
                   </div>
                 </div>
 
@@ -362,7 +369,6 @@ export const Experience = () => {
                   <p className="text-gray-800 mb-4">
                     Технология Video Capture позволяет увидеть своими глазами любые отклонения, выявленные в процессе ремонта, и тем самым дает Вам исчерпывающую информацию для принятия взвешенных решений. После проведения первичного визуального осмотра автомобиль поступает в цех, где механик выполнит необходимые операции по Вашему обращению. Если на этапе выполнения работ будут выявлены какие-либо дополнительные отклонения, мастер-консультант отправит Вам видеофайл, наглядно демонстрирующий выявленные несоответствия, а также детальную информацию о стоимости их устранения, чтобы Вы могли согласовать операции прямо со своего смартфона.
                   </p>
-                  <a href="https://borishof.ru/upload/files/service/evhc/video.mp4" className="text-blue-600 hover:underline block">Посмотрите как это будет выглядеть</a>
                 </div>
 
                 <div>
