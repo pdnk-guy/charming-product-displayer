@@ -347,13 +347,22 @@ export const Experience = () => {
                   <p className="text-gray-800 mb-4">
                     Разработали инструмент для коммуникации клиента с компанией. Особое внимание уделено именно дистанционному взаимодействию
                   </p>
-                  <div className="space-y-2">
+                  <div className="space-y-4">
                     <a href="https://t.me/myborishof_bot" className="text-blue-600 hover:underline block">Бот Мой Борисхоф</a>
                     <div className="aspect-w-16 aspect-h-9">
                       <video 
                         controls
+                        className="w-full rounded-lg shadow-lg mb-4"
+                        src="https://drive.google.com/uc?export=download&id=1ryAhjqJEFAB8RqXs_ebJIP4C1x_xqruF"
+                      >
+                        Ваш браузер не поддерживает видео
+                      </video>
+                    </div>
+                    <div className="aspect-w-16 aspect-h-9">
+                      <video 
+                        controls
                         className="w-full rounded-lg shadow-lg"
-                        src="https://borishof.ru/upload/files/service/evhc/video.mp4"
+                        src="https://drive.google.com/uc?export=download&id=1XznfU_VXIlKYxEqxtZuGC7fiPdyb62Zo"
                       >
                         Ваш браузер не поддерживает видео
                       </video>
@@ -369,33 +378,18 @@ export const Experience = () => {
                   <p className="text-gray-800 mb-4">
                     Технология Video Capture позволяет увидеть своими глазами любые отклонения, выявленные в процессе ремонта, и тем самым дает Вам исчерпывающую информацию для принятия взвешенных решений. После проведения первичного визуального осмотра автомобиль поступает в цех, где механик выполнит необходимые операции по Вашему обращению. Если на этапе выполнения работ будут выявлены какие-либо дополнительные отклонения, мастер-консультант отправит Вам видеофайл, наглядно демонстрирующий выявленные несоответствия, а также детальную информацию о стоимости их устранения, чтобы Вы могли согласовать операции прямо со своего смартфона.
                   </p>
+                  <p className="text-gray-800 mb-4">Посмотрите как это будет выглядеть:</p>
+                  <div className="aspect-w-16 aspect-h-9">
+                    <video 
+                      controls
+                      className="w-full rounded-lg shadow-lg"
+                      src="https://borishof.ru/upload/files/service/evhc/video.mp4"
+                    >
+                      Ваш браузер не поддерживает видео
+                    </video>
+                  </div>
                 </div>
 
-                <div>
-                  <h4 className="font-bold text-orange-500 mb-2">Личный кабинет клиента (Продукт в процессе разработки)</h4>
-                  <a href="https://drive.google.com/file/d/1B5kM0_X8zbqtim1SOUqvWwj39lKDMT4Y/view?usp=sharing" className="text-blue-600 hover:underline block">Концепт личного кабинета</a>
-                </div>
-
-                <div>
-                  <h4 className="font-bold text-orange-500 mb-2">Достижения</h4>
-                  <p className="text-gray-800 mb-4">
-                    Продукты позволили компании стать победителями <strong>ежегодной национальной премии «АВТОДИЛЕР ГОДА – 2024»</strong>:
-                  </p>
-                  <ul className="list-decimal pl-6 space-y-2 text-gray-800">
-                    <li>
-                      <a href="https://www.autostat.ru/press-releases/58620/" className="text-blue-600 hover:underline">Номинация «Организация продаж новых автомобилей»</a> 
-                      (<strong>Премиальный сегмент</strong>: - Москва и Санкт-Петербург: <strong>EXEED Центр БорисХоф Магистральная</strong>, Москва)
-                    </li>
-                    <li>
-                      <a href="https://www.autostat.ru/press-releases/58620/" className="text-blue-600 hover:underline">Номинация «Организация сервиса»</a> 
-                      (15 – 30 дилерских контрактов – <strong>Группа компаний БорисХоф</strong>)
-                    </li>
-                    <li>
-                      <a href="https://www.autostat.ru/press-releases/58620/" className="text-blue-600 hover:underline">Номинация «Эффективные закупки»</a> 
-                      (объем склада от 100 до 250 автомобилей: <strong>БорисХоф PROбег Вегас</strong>)
-                    </li>
-                  </ul>
-                </div>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
