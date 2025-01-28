@@ -30,21 +30,56 @@ export const Experience = () => {
               </AccordionTrigger>
               <AccordionContent className="text-left space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                  <img 
-                    src="/lovable-uploads/b1f07ddd-3ae2-4e81-91ce-31dfc3123410.png" 
-                    alt="Uremont сервис" 
-                    className="w-full rounded-lg shadow-md"
-                  />
-                  <img 
-                    src="/lovable-uploads/308291d9-cf4d-48ba-827b-eba1ad7fca5b.png" 
-                    alt="Uremont страхование" 
-                    className="w-full rounded-lg shadow-md"
-                  />
-                  <img 
-                    src="/lovable-uploads/3f6efdf7-2f0e-44f9-9591-7e92c948bb87.png" 
-                    alt="Uremont история автомобиля" 
-                    className="w-full rounded-lg shadow-md"
-                  />
+                  <Dialog>
+                    <DialogTrigger>
+                      <img 
+                        src="/lovable-uploads/b1f07ddd-3ae2-4e81-91ce-31dfc3123410.png" 
+                        alt="Uremont сервис" 
+                        className="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                      />
+                    </DialogTrigger>
+                    <DialogContent className="max-w-4xl">
+                      <img 
+                        src="/lovable-uploads/b1f07ddd-3ae2-4e81-91ce-31dfc3123410.png" 
+                        alt="Uremont сервис" 
+                        className="w-full h-auto"
+                      />
+                    </DialogContent>
+                  </Dialog>
+                  
+                  <Dialog>
+                    <DialogTrigger>
+                      <img 
+                        src="/lovable-uploads/308291d9-cf4d-48ba-827b-eba1ad7fca5b.png" 
+                        alt="Uremont страхование" 
+                        className="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                      />
+                    </DialogTrigger>
+                    <DialogContent className="max-w-4xl">
+                      <img 
+                        src="/lovable-uploads/308291d9-cf4d-48ba-827b-eba1ad7fca5b.png" 
+                        alt="Uremont страхование" 
+                        className="w-full h-auto"
+                      />
+                    </DialogContent>
+                  </Dialog>
+                  
+                  <Dialog>
+                    <DialogTrigger>
+                      <img 
+                        src="/lovable-uploads/3f6efdf7-2f0e-44f9-9591-7e92c948bb87.png" 
+                        alt="Uremont история автомобиля" 
+                        className="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                      />
+                    </DialogTrigger>
+                    <DialogContent className="max-w-4xl">
+                      <img 
+                        src="/lovable-uploads/3f6efdf7-2f0e-44f9-9591-7e92c948bb87.png" 
+                        alt="Uremont история автомобиля" 
+                        className="w-full h-auto"
+                      />
+                    </DialogContent>
+                  </Dialog>
                 </div>
 
                 <p className="text-gray-800">
