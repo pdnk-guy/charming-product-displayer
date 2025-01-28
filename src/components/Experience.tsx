@@ -168,11 +168,25 @@ export const Experience = () => {
                 </div>
               </AccordionTrigger>
               <AccordionContent className="text-left space-y-6">
+                <Dialog>
+                  <DialogTrigger>
+                    <img 
+                      src="/lovable-uploads/da3eafd0-7153-43a2-8b7d-43eee022de44.png" 
+                      alt="Автомаркет главная страница" 
+                      className="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer mb-6"
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="max-w-4xl">
+                    <img 
+                      src="/lovable-uploads/da3eafd0-7153-43a2-8b7d-43eee022de44.png" 
+                      alt="Автомаркет главная страница" 
+                      className="w-full h-auto"
+                    />
+                  </DialogContent>
+                </Dialog>
+
                 <p className="text-gray-800">
                   Автомаркет — это интернет портал автомобильной тематики, меркетплейс, который собрал на своей площадке основных игроков из сферы торговли как новых так и б/у автомобилей. Проект собрал на своей платформе объявления о продаже автомобилей от официальных дилеров (B2C) а также от физических лиц (C2C).
-                </p>
-                <p className="text-gray-800">
-                  Создание проекта с нуля: написание ТЗ, подбор исполнителей, набор команды, описание бизнес-процессов, составление и защита перед СД стратегии компании и вывода площадки в релиз с последующим составлением и наполнением backlog'a.
                 </p>
                 
                 <div>
