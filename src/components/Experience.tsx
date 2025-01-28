@@ -24,9 +24,28 @@ export const Experience = () => {
                 </div>
               </AccordionTrigger>
               <AccordionContent className="text-left space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                  <img 
+                    src="/lovable-uploads/b1f07ddd-3ae2-4e81-91ce-31dfc3123410.png" 
+                    alt="Uremont сервис" 
+                    className="w-full rounded-lg shadow-md"
+                  />
+                  <img 
+                    src="/lovable-uploads/308291d9-cf4d-48ba-827b-eba1ad7fca5b.png" 
+                    alt="Uremont страхование" 
+                    className="w-full rounded-lg shadow-md"
+                  />
+                  <img 
+                    src="/lovable-uploads/3f6efdf7-2f0e-44f9-9591-7e92c948bb87.png" 
+                    alt="Uremont история автомобиля" 
+                    className="w-full rounded-lg shadow-md"
+                  />
+                </div>
+
                 <p className="text-gray-800">
                   <strong>UREMONT</strong> — крупнейшая в Восточной Европе платформа по выбору и бронированию автосервисов. Проект объединил на своей площадке более 16 000 СТО и автодилеров, свыше миллиона автовладельцев, более 20 страховых компаний, 5 банков и поставщиков автозапчастей.
                 </p>
+
                 <p className="text-gray-800">
                   Чтобы упростить процедуру взаимодействия между игроками авторынка, мы разработали программное обеспечение, которое переводит все процессы в онлайн формат.
                 </p>
