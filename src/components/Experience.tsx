@@ -239,91 +239,6 @@ export const Experience = () => {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="marketlab">
-              <AccordionTrigger className="text-left">
-                <div>
-                  <h3 className="text-xl font-semibold text-orange-500">ООО Лаборатория Маркетинга</h3>
-                  <p className="text-gray-600 text-sm">CPO, 2023</p>
-                </div>
-              </AccordionTrigger>
-              <AccordionContent className="text-left space-y-6">
-                <Dialog>
-                  <DialogTrigger>
-                    <img 
-                      src="/lovable-uploads/f7d331eb-b72e-4c44-ba02-d3f81e6cc263.png" 
-                      alt="Market Lab главная страница" 
-                      className="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer mb-6"
-                    />
-                  </DialogTrigger>
-                  <DialogContent className="max-w-4xl">
-                    <img 
-                      src="/lovable-uploads/f7d331eb-b72e-4c44-ba02-d3f81e6cc263.png" 
-                      alt="Market Lab главная страница" 
-                      className="w-full h-auto"
-                    />
-                  </DialogContent>
-                </Dialog>
-
-                <p className="text-gray-800">
-                  <strong>Market lab</strong> — это Full Digital маркетинговая компания (полный цикл услуг маркетингового сопровождения).
-                </p>
-                
-                <div className="space-y-4">
-                  <div>
-                    <h4 className="font-bold text-orange-500 mb-2">Задача:</h4>
-                    <p className="text-gray-800">Создать омниканальную систему и эффективный инструмент для управления коммуникацией с клиентами и автоматизации процессов продаж (CRM) для внутренного использования и дальнейшего вывода продукта на рынок.</p>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-bold text-orange-500 mb-2">Рынок:</h4>
-                    <p className="text-gray-800">Арбитраж трафика, медиабаинг, инфобизнес, онлайн курсы, маркетинг.</p>
-                  </div>
-                  
-                  <div>
-                    <p className="text-gray-800">
-                      <strong>Был создан продукт-платформа CHATLAB</strong> для управления клиентскими чатами и автоматизации общения с клиентами.
-                      В отличие от других решений для управления клиентскими чатами, продукт обладает рядом ключевых особенностей. Именно эти особенности и являются killer-фичами в конкурентном рынке.
-                    </p>
-                  </div>
-                </div>
-
-                <div>
-                  <h4 className="font-bold text-orange-500 mb-2">Достижения:</h4>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-800">
-                    <li>Сформировал видение продукта, утп, каналы реализации и интеграции, монетизацию</li>
-                    <li>Определил ключевые метрики, составил p&l, защитил у основателей (founder)</li>
-                    <li>Совместно с ИТ директором сформировал состав команды, обосновал и защитил численность</li>
-                    <li>Совместно с ИТ директором определил этапы, сроки, разработал архитектуру решения, необходимые интеграции</li>
-                    <li>Составил дорожную карту продукта</li>
-                    <li>Выстроил работу с продуктом с нуля по agile-циклу (планирования, ретро, демо, дейли)</li>
-                    <li>На основе CustDev создал требования к MVP продукту</li>
-                    <li>Разработал решение (mvp) в установленные сроки</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h4 className="font-bold text-orange-500 mb-2">На какие метрики я смотрел? Ежедневно/после релиза ключевых фичей/квартальные?</h4>
-                  <p className="text-gray-800">
-                    Количество активных пользователей (DAU, WAU, MAU), Churn, CAC / LTV Ratio, Premium Upgrades.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-bold text-orange-500 mb-2">На сколько увеличилось количество юзеров за время моей работы?</h4>
-                  <p className="text-gray-800">
-                    С нуля до 877 бизнес-аккаунтов (в каждом аккаунте по 5-8 сотрудников, примерно 5 700 активных пользователей)
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-bold text-orange-500 mb-2">Сколько человек было в моей команде?</h4>
-                  <p className="text-gray-800">
-                    4 разработчика, 2 Лида команды разработчиков, 1 дизайнер, 1 системный аналитик, 1 тестировщик, HR.
-                  </p>
-                </div>
-              </AccordionContent>
-            </AccordionItem>
-
             <AccordionItem value="borishof">
               <AccordionTrigger className="text-left">
                 <div>
@@ -347,26 +262,24 @@ export const Experience = () => {
                   <p className="text-gray-800 mb-4">
                     Разработали инструмент для коммуникации клиента с компанией. Особое внимание уделено именно дистанционному взаимодействию
                   </p>
-                  <div className="space-y-4">
+                  <div className="space-y-2">
                     <a href="https://t.me/myborishof_bot" className="text-blue-600 hover:underline block">Бот Мой Борисхоф</a>
-                    <div className="aspect-w-16 aspect-h-9">
-                      <video 
-                        controls
-                        className="w-full rounded-lg shadow-lg mb-4"
-                        src="https://drive.google.com/uc?export=download&id=1ryAhjqJEFAB8RqXs_ebJIP4C1x_xqruF"
-                      >
-                        Ваш браузер не поддерживает видео
-                      </video>
-                    </div>
-                    <div className="aspect-w-16 aspect-h-9">
-                      <video 
-                        controls
-                        className="w-full rounded-lg shadow-lg"
-                        src="https://drive.google.com/uc?export=download&id=1XznfU_VXIlKYxEqxtZuGC7fiPdyb62Zo"
-                      >
-                        Ваш браузер не поддерживает видео
-                      </video>
-                    </div>
+                    <a 
+                      href="https://drive.google.com/file/d/1ryAhjqJEFAB8RqXs_ebJIP4C1x_xqruF/view" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-blue-600 hover:underline block"
+                    >
+                      Видео 1
+                    </a>
+                    <a 
+                      href="https://drive.google.com/file/d/1XznfU_VXIlKYxEqxtZuGC7fiPdyb62Zo/view" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-blue-600 hover:underline block"
+                    >
+                      Видео 2
+                    </a>
                   </div>
                 </div>
 
